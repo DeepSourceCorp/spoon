@@ -86,19 +86,9 @@
 
     <distributionManagement>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/deepsourcelabs/spoon</url>
         </repository>
-        <snapshotRepository>
-            <id>ow2.org-snapshot</id>
-            <name>Maven Repository for Spoon Snapshots</name>
-            <url>https://repository.ow2.org/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <site>
-            <id>gforge.inria.fr-site</id>
-            <name>inria</name>
-            <url>scp://scm.gforge.inria.fr/home/groups/spoon/htdocs/mvnsites</url>
-        </site>
     </distributionManagement>
 
     <build>
