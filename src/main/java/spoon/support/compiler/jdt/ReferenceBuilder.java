@@ -707,7 +707,7 @@ public class ReferenceBuilder {
 
 		// the expected type is not available/parameterized if the constructor call occurred in e.g. an unresolved
 		// method, or in a method that did not expect a parameterized argument
-		type.addActualTypeArgument(jdtTreeBuilder.getFactory().Type().createReference(CtTypeReference.OMITTED_TYPE_ARG_NAME));
+		type.addActualTypeArgument(jdtTreeBuilder.getFactory().Type().OMITTED_TYPE_ARG_TYPE.clone());
 	}
 
 	/**
